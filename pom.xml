@@ -179,7 +179,7 @@
     <module>kissmq-rar</module>
     <module>kissmq-spring</module>
     <module>kissmq-osgi</module>
-    <module>kissmq-tooling</module>
+    <module>kissmq-tools</module>
     <module>kissmq-web</module>
     <module>kissmq-web-console</module>
     <module>kissmq-xmpp</module>
@@ -196,6 +196,11 @@
       <dependency>
         <groupId>org.kissmq</groupId>
         <artifactId>kissmq-all</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+	   <dependency>
+        <groupId>org.kissmq</groupId>
+        <artifactId>kissmq-tools</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -264,11 +269,6 @@
       <dependency>
         <groupId>org.kissmq</groupId>
         <artifactId>kissmq-all</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.kissmq</groupId>
-        <artifactId>kissmq-camel</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
